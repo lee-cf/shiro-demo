@@ -1,10 +1,17 @@
 package com.example.demo.entity;
 
+import java.util.Date;
+import java.util.List;
+
 public class Role {
 
     private Long id;
-    private String role;
-    private String promisson;
+    private Long roleId;
+    private String name;
+    private String description;
+    private Integer status;
+    private Date createTime;
+    private Date updateTime;
 
     public Long getId() {
         return id;
@@ -14,19 +21,51 @@ public class Role {
         this.id = id;
     }
 
-    public String getRole() {
-        return role;
+    public Long getRoleId() {
+        return roleId;
     }
 
-    public void setRole(String role) {
-        this.role = role;
+    public void setRoleId(Long roleId) {
+        this.roleId = roleId;
     }
 
-    public String getPromisson() {
-        return promisson;
+    public String getName() {
+        return name;
     }
 
-    public void setPromisson(String promisson) {
-        this.promisson = promisson;
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public Integer getStatus() {
+        return status;
+    }
+
+    public void setStatus(Integer status) {
+        this.status = status;
+    }
+
+    public Date getCreateTime() {
+        return createTime;
+    }
+
+    public void setCreateTime(Date createTime) {
+        this.createTime = createTime;
+    }
+
+    public Date getUpdateTime() {
+        return updateTime;
+    }
+
+    public void setUpdateTime(Date updateTime) {
+        this.updateTime = updateTime;
     }
 }

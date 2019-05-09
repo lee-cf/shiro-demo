@@ -42,6 +42,10 @@
         <typeAlias type="java.lang.Integer" alias="Integer"/>
         <typeAlias type="java.lang.Long" alias="Long"/>
         <typeAlias type="java.util.Map" alias="Map"/>
+
+        <typeAlias type="com.example.demo.entity.User" alias="User"/>
+        <typeAlias type="com.example.demo.entity.Role" alias="Role"/>
+        <typeAlias type="com.example.demo.entity.Promisson" alias="Promisson"/>
     </typeAliases>
 
     <!-- 全局别名设置，在映射文件中只需写别名，而不必写出整个类路径  -->
